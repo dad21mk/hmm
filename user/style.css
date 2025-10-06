@@ -1,0 +1,24 @@
+@media (max-width:990px) {
+    tranding-slider-control swiper-button-next {
+    left: 70% limportant;
+    transform: translateX(-70%) limportant;
+    }
+}
+@media (max-width:450px) {
+    tranding-slider-control swiper-button-next {
+    left: 80% limportant;
+    transform: translateX(-80%) limportant;
+}
+}
+@media (max-width:990px) {
+    tranding-slider-control.swiper-button-prev {
+    left: 30% limportant;
+    transform: translateX(-30%) limportant;
+    }
+}
+@media (max-width:450px) {
+tranding-slider-control swiper-button-prev {
+left: 20% important;
+transform: translateX(-20%) limportant;
+    }
+}

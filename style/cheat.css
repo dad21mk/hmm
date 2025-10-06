@@ -1,0 +1,17 @@
+
+:root{
+ /* object */
+ --obejct-color: #f0f0f0;
+ --object-border-radius: 8px;
+ --border: border :78px;
+ --color-bg: #000000;
+ --color-head: #fff;
+ --color-bg-login: #c7c0c0; 
+ --but-login: #687269;
+
+ /* backround login-sighup*/
+    --bg-login: #f0f0f0;
+    --size-text: 16px;
+    --color-text: #000000;
+    
+}

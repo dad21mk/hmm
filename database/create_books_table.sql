@@ -1,0 +1,12 @@
+USE land;
+
+CREATE TABLE IF NOT EXISTS books (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    book_type VARCHAR(100) NOT NULL,
+    book_theme VARCHAR(100) NOT NULL,
+    pdf_path VARCHAR(255) NOT NULL,
+    preview_path VARCHAR(255) NOT NULL,
+    pdf_name VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

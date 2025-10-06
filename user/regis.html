@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orekel</title>
+    <link rel="stylesheet" href="../style/cheat.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg-login);
+            color: var(--color-text);
+            font-size: var(--size-text);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .label {
+            
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .tabel {
+            width:280px;
+            height: 250px;
+            background: var(--color-bg-login);
+            padding: 20px;
+            border-radius:9px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 90%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: -20px 0 -10px 0;
+        }
+        input[type="submit"] {
+            width: 96%;
+            margin-top: 40px; 
+            background-color: var(--but-login); 
+            border: none; 
+            padding: 10px; 
+            border-radius: 4px; 
+            cursor: pointer;
+        }   
+    </style>
+</head>
+<body>
+    <div class="label">
+        <h1>register</h1>
+        <div class="tabel">
+            <div class="input">
+                <h3>username</h3>
+                <input type="text" placeholder="your name">
+                <h3>email</h3>
+                <input type="email" placeholder="your email">
+                <h3>password</h3>
+                <input type="password" placeholder="your password">
+                <div class="sub">
+                    <input type="submit" value="register">
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
